@@ -1,0 +1,39 @@
+/* index*/
+
+.logo-ruskin {
+    p {
+        font-family: var(--tipografiaruskin);
+        font-size: $letraem*4;
+        text-align: center;
+    }
+}
+
+.footer-enlace-web {
+    /*texto footer web*/
+    font-family: var(--tipografiaruskin);
+    font-size: $letraem+0.1;
+    color: map-get($mapa, fondoneutro);
+}
+
+.text-container {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.text-container {
+    h2 {
+        text-align: map-get($mapa, textocentrado);
+        font-family: var(--tipografiaruskin);
+    }
+}
+
+.text-container {
+    p {
+        font-family: map-get($mapa, fuenteContacto);
+        text-align: map-get($mapa, textocentrado);
+        font-size: 1em;
+    }
+}
+
+
+/* index*/

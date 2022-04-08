@@ -1,0 +1,76 @@
+/*seccion-eventos*/
+
+.recitales-ruskinarms {
+    background-color: var(--fondonegro);
+}
+
+.titulo-eventos {
+    font-family: sans-serif;
+    font-size: 4em;
+    color: map-get($mapa, fondoneutro);
+    text-align: map-get($mapa, textocentrado);
+}
+
+.flyer-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.flyer-container {
+    p {
+        color: map-get($mapa, fondoneutro);
+    }
+}
+
+.flyer-container {
+    h4 {
+        color: map-get($mapa, fondoneutro);
+    }
+}
+
+.flyer-container {
+    .flyer {
+        img {
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+            margin: 0.5em;
+            overflow: hidden;
+            text-align: map-get($mapa, textocentrado);
+            transition: all 0.25s;
+        }
+    }
+}
+
+.flyer-container {
+    .flyer {
+        &:hover {
+            transform: translateY(-1em);
+            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+            opacity: 0.6;
+        }
+    }
+}
+
+.flyer-container {
+    .flyer {
+        word-break: break-all;
+    }
+}
+
+.flyer-container {
+    .flyer {
+        p {
+            padding: 1em;
+            font-size: 1em;
+            font-weight: 200;
+            text-align: justify;
+        }
+    }
+}
+
+
+/*seccion-eventos*/

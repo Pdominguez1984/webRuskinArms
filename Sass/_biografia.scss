@@ -1,0 +1,71 @@
+/*biografia*/
+
+.contenedor-bio {
+    margin: 0;
+    background-color: var(--fondonegro);
+}
+
+.contenedor-bio {
+    .contenido {
+        h2 {
+            text-align: center;
+            color: map-get($mapa, fondoneutro);
+        }
+    }
+}
+
+.contenedor-bio {
+    .contenido {
+        h4 {
+            text-align: center;
+            color: map-get($mapa, fondoneutro);
+        }
+    }
+}
+
+.contenedor-bio {
+    .contenido {
+        p {
+            text-align: justify;
+            color: map-get($mapa, fondoneutro);
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.contenedor-bio {
+    .contenido {
+        h5 {
+            text-align: map-get($mapa, textocentrado);
+            color: map-get($mapa, fondoneutro);
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.fondo-logo {
+    img {
+        border-radius: 5px;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+}
+
+.disco-ruskin {
+    img {
+        border-radius: 5px;
+        margin-left: 35%;
+        margin-right: 37%;
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+}
+
+
+/*biografia*/

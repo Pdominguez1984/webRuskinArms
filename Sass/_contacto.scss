@@ -1,0 +1,46 @@
+/*CONTACTO*/
+
+.form-container {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: var(--fondonegro);
+    padding: 0.5em;
+    font-family: map-get($mapa, fuenteContacto);
+}
+
+.form-container {
+    h1 {
+        margin-top: 1em;
+        margin-right: 2em;
+    }
+}
+
+.formulario {
+    input {
+        margin-right: 5em;
+        margin-top: 1em;
+        border-radius: map-get($mapa, bordeRedondeado);
+    }
+}
+
+.formulario {
+    textarea {
+        margin-right: 5em;
+        border-radius: map-get($mapa, bordeRedondeado);
+    }
+}
+
+#btnenviar {
+    border-radius: map-get($mapa, bordeRedondeado);
+}
+
+#btnenviar {
+    &:hover {
+        background-color: #a6a1a1;
+    }
+}
+
+
+/*CONTACTO*/

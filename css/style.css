@@ -1,380 +1,285 @@
-@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
-
-/*variables*/
-
-:root {
-    --tipografiaruskin: Cloister Black;
-    --fondonegro: black;
-}
-
-
-/**/
-
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap");
+/*generales*/
 html,
 body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
+  max-width: 100%;
+  overflow-x: hidden; }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
+/*generales*/
+/*variables*/
+:root {
+  --tipografiaruskin: Cloister Black;
+  --fondonegro: black; }
 
+/*variables*/
 /* index*/
-
 .logo-ruskin p {
-    font-family: var(--tipografiaruskin);
-    font-size: 4em;
-    text-align: center;
-}
+  font-family: var(--tipografiaruskin);
+  font-size: 4em;
+  text-align: center; }
 
 .footer-enlace-web {
-    /*texto footer web*/
-    font-family: var(--tipografiaruskin);
-    font-size: 1.1em;
-    color: white;
-}
+  /*texto footer web*/
+  font-family: var(--tipografiaruskin);
+  font-size: 1.1em;
+  color: white; }
 
 .text-container {
-    margin-left: 2%;
-    margin-right: 2%;
-}
+  margin-left: 2%;
+  margin-right: 2%; }
 
 .text-container h2 {
-    text-align: center;
-    font-family: var(--tipografiaruskin);
-}
+  text-align: center;
+  font-family: var(--tipografiaruskin); }
 
 .text-container p {
-    font-family: Assistant;
-    text-align: center;
-    font-size: 1em;
-}
-
+  font-family: Assistant;
+  text-align: center;
+  font-size: 1em; }
 
 /* index*/
-
-
 /*biografia*/
-
 .contenedor-bio {
-    margin: 0;
-    background-color: var(--fondonegro);
-}
+  margin: 0;
+  background-color: var(--fondonegro); }
 
 .contenedor-bio .contenido h2 {
-    text-align: center;
-    color: white;
-}
+  text-align: center;
+  color: white; }
 
 .contenedor-bio .contenido h4 {
-    text-align: center;
-    color: white;
-}
+  text-align: center;
+  color: white; }
 
 .contenedor-bio .contenido p {
-    text-align: justify;
-    color: white;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 0;
-}
+  text-align: justify;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 0; }
 
 .contenedor-bio .contenido h5 {
-    text-align: center;
-    color: white;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 0;
-}
+  text-align: center;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 0; }
 
 .fondo-logo img {
-    border-radius: 5px;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 2%;
-    margin-bottom: 1%;
-}
+  border-radius: 5px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+  margin-bottom: 1%; }
 
 .disco-ruskin img {
-    border-radius: 5px;
-    margin-left: 35%;
-    margin-right: 37%;
-    margin-top: 2%;
-    margin-bottom: 1%;
-}
-
+  border-radius: 5px;
+  margin-left: 35%;
+  margin-right: 37%;
+  margin-top: 2%;
+  margin-bottom: 1%; }
 
 /*biografia*/
-
-
 /*MULTIMEDIA*/
-
-
 /*videos en flex*/
-
 .video-container {
-    display: flex;
-    width: 100%;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    background-color: var(--fondonegro);
-    padding: 0.5em;
-}
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: var(--fondonegro);
+  padding: 0.5em; }
 
 .video-container div iframe {
-    border: solid;
-    margin: 5px;
-    border-radius: 5px;
-}
+  border: solid;
+  margin: 5px;
+  border-radius: 5px; }
 
 .video-container div iframe:hover {
-    cursor: pointer;
-    opacity: 0.6;
-    transition: 0.5s;
-    background-color: white;
-}
-
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.5s;
+  background-color: white; }
 
 /*fotos en grid*/
-
-
 /*grid-container*/
-
 .img-container {
-    display: grid;
-    background-color: var(--fondonegro);
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    justify-content: space-between;
-}
-
+  display: grid;
+  background-color: var(--fondonegro);
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  justify-content: space-between; }
 
 /*grid-container-img*/
-
 .img-container div img {
-    border-radius: 1em;
-    padding: 0.5em;
-    box-shadow: 0px 1px 10 px rgba(0, 0, 0, 0.2);
-}
+  border-radius: 1em;
+  padding: 0.5em;
+  box-shadow: 0px 1px 10 px rgba(0, 0, 0, 0.2); }
 
 .img-container div img:hover {
-    cursor: pointer;
-    opacity: .6;
-    transition: 0.5s;
-    filter: saturate(180%);
-}
-
+  cursor: pointer;
+  opacity: .6;
+  transition: 0.5s;
+  filter: saturate(180%); }
 
 /*MULTIMEDIA*/
-
-
-/*CONTACTO*/
-
-.form-container {
-    display: flex;
-    width: 100%;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    background-color: var(--fondonegro);
-    padding: 0.5em;
-    font-family: Assistant;
-}
-
-.form-container h1 {
-    margin-top: 1em;
-    margin-right: 2em;
-}
-
-.formulario input {
-    margin-right: 5em;
-    margin-top: 1em;
-    border-radius: 5px;
-}
-
-.formulario textarea {
-    margin-right: 5em;
-    border-radius: 5px;
-}
-
-#btnenviar {
-    border-radius: 5px;
-}
-
-#btnenviar:hover {
-    background-color: #a6a1a1;
-}
-
-
-/*CONTACTO*/
-
-
 /*seccion-eventos*/
-
 .recitales-ruskinarms {
-    background-color: var(--fondonegro);
-}
+  background-color: var(--fondonegro); }
 
 .titulo-eventos {
-    font-family: sans-serif;
-    font-size: 4em;
-    color: white;
-    text-align: center;
-}
+  font-family: sans-serif;
+  font-size: 4em;
+  color: white;
+  text-align: center; }
 
 .flyer-container {
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: auto;
-    margin-bottom: 2em;
-}
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-bottom: 2em; }
 
 .flyer-container p {
-    color: white;
-}
+  color: white; }
 
 .flyer-container h4 {
-    color: white;
-}
+  color: white; }
 
 .flyer-container .flyer img {
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    margin: 0.5em;
-    overflow: hidden;
-    text-align: center;
-    transition: all 0.25s;
-}
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  margin: 0.5em;
+  overflow: hidden;
+  text-align: center;
+  transition: all 0.25s; }
 
 .flyer-container .flyer:hover {
-    transform: translateY(-1em);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-    opacity: 0.6;
-}
+  transform: translateY(-1em);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+  opacity: 0.6; }
 
 .flyer-container .flyer {
-    word-break: break-all;
-}
+  word-break: break-all; }
 
 .flyer-container .flyer p {
-    padding: 1em;
-    font-size: 1em;
-    font-weight: 200;
-    text-align: justify;
-}
-
+  padding: 1em;
+  font-size: 1em;
+  font-weight: 200;
+  text-align: justify; }
 
 /*seccion-eventos*/
+/*CONTACTO*/
+.form-container {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: var(--fondonegro);
+  padding: 0.5em;
+  font-family: Assistant; }
 
+.form-container h1 {
+  margin-top: 1em;
+  margin-right: 2em; }
 
+.formulario input {
+  margin-right: 5em;
+  margin-top: 1em;
+  border-radius: 5px; }
+
+.formulario textarea {
+  margin-right: 5em;
+  border-radius: 5px; }
+
+#btnenviar {
+  border-radius: 5px; }
+
+#btnenviar:hover {
+  background-color: #a6a1a1; }
+
+/*CONTACTO*/
+/**/
 /*RESPONSIVE*/
+@media (max-width: 320px) {
+  /*section/biografia*/
+  .contenedor-bio .contenido .disco-ruskin {
+    margin-right: 2.5em; }
+  .contenedor-bio .contenido .disco-ruskin img {
+    width: 95%;
+    height: 100%;
+    margin-left: 6em; }
+  /*section/biografia*/
+  /*section/multimedia*/
+  .video-container div {
+    padding: 0.5em; }
+  .video-container div iframe {
+    width: 95%; }
+  /*section/multimedia*/
+  /*section/contacto*/
+  /*section/contacto*/ }
 
-@media(max-width:320px) {
-    /*section/biografia*/
-    .contenedor-bio .contenido .disco-ruskin {
-        margin-right: 2.5em;
-    }
-    .contenedor-bio .contenido .disco-ruskin img {
-        width: 95%;
-        height: 100%;
-        margin-left: 6em;
-    }
-    /*section/biografia*/
-    /*section/multimedia*/
-    .video-container div {
-        padding: 0.5em;
-    }
-    .video-container div iframe {
-        width: 95%;
-    }
-    /*section/multimedia*/
-    /*section/contacto*/
-    /*section/contacto*/
-}
+@media (max-width: 470px) {
+  /*section/index*/
+  /*titulo*/
+  .logo-ruskin p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em; }
+  /*texto integrantes*/
+  .text-container {
+    margin-top: 1em;
+    margin-bottom: 2em; }
+  footer {
+    top: 0;
+    bottom: 0; }
+  /*section/index*/
+  /*section/biografia*/
+  .contenedor-bio .contenido .disco-ruskin img {
+    width: 95%;
+    height: 100%;
+    margin-left: 8em; }
+  /*section/biografia*/
+  /*section/multimedia*/
+  .video-container div {
+    padding: 0.5em; }
+  .video-container div iframe {
+    width: auto; }
+  /*section/contacto*/
+  .form-container {
+    width: 100%;
+    padding: 4em; }
+  .form-container img {
+    width: 90%; }
+  .formulario-contacto {
+    padding: 2em;
+    margin-bottom: 3em;
+    margin-left: 4em; }
+  /*section/contacto*/ }
 
-@media( max-width:470px) {
-    /*section/index*/
-    /*titulo*/
-    .logo-ruskin p {
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-    }
-    /*imagen principal*/
-    .img-principal img {
-        margin-top: 1em;
-        margin-bottom: 1em;
-    }
-    /*texto integrantes*/
-    .text-container {
-        margin-top: 1em;
-        margin-bottom: 2em;
-    }
-    footer {
-        top: 0;
-        bottom: 0;
-    }
-    /*section/index*/
-    /*section/biografia*/
-    .contenedor-bio .contenido .disco-ruskin img {
-        width: 95%;
-        height: 100%;
-        margin-left: 8em;
-    }
-    /*section/biografia*/
-    /*section/multimedia*/
-    .video-container div {
-        padding: 0.5em;
-    }
-    .video-container div iframe {
-        width: auto;
-    }
-    /*section/contacto*/
-    .form-container {
-        width: 100%;
-        padding: 4em;
-    }
-    .form-container img {
-        width: 90%;
-    }
-    .formulario-contacto {
-        padding: 2em;
-        margin-bottom: 3em;
-        margin-left: 4em;
-    }
-    /*section/contacto*/
-}
-
-@media( max-width:768px) {
-    /*section/biografia*/
-    .contenedor-bio .contenido .disco-ruskin img {
-        width: 95%;
-        height: 100%;
-        margin-left: 1em;
-    }
-    /*section/biografia*/
-    /*section/contacto*/
-    .form-container {
-        width: 100%;
-        padding: 4em;
-    }
-    .form-container img {
-        width: 95%;
-    }
-    .formulario-contacto {
-        padding: 2em;
-        margin-bottom: 3.5em;
-        margin-left: 4em;
-    }
-    /*section/contacto*/
-}
-
+@media (max-width: 768px) {
+  /*section/biografia*/
+  .contenedor-bio .contenido .disco-ruskin img {
+    width: 95%;
+    height: 100%;
+    margin-left: 1em; }
+  /*section/biografia*/
+  /*section/contacto*/
+  .form-container {
+    width: 100%;
+    padding: 4em; }
+  .form-container img {
+    width: 95%; }
+  .formulario-contacto {
+    padding: 2em;
+    margin-bottom: 3.5em;
+    margin-left: 4em; }
+  /*section/contacto*/ }
 
 /*section/contacto*/
-
-
 /*RESPONSIVE*/
